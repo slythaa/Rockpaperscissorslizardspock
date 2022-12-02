@@ -39,7 +39,7 @@ while running:
     else:
         print("You lose!")
 
-    if not input("Play again? (y/n): ").lower() == "y":
+    if not input("Play again? (yes or no): ").lower() == "yes":
         running = False
 
 print("Thanks for playing!")
